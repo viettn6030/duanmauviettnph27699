@@ -18,9 +18,9 @@ public class Login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        EditText editUser = findViewById(R.id.edtUser);
-        EditText editPass = findViewById(R.id.edtPass);
-        Button btn = findViewById(R.id.btnDangNhap);
+        EditText editUser = findViewById(R.id.edUse);
+        EditText editPass = findViewById(R.id.edPass);
+        Button btn = findViewById(R.id.btnSignIn);
         ThuThuDAO thuThuDAO = new ThuThuDAO(this);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
